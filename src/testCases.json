@@ -1,0 +1,11 @@
+[
+    { "input": "3 10", "expectedOutput": "37"},
+    { "input": "14 29", "expectedOutput": "393"},
+    { "input": "57 239", "expectedOutput": "28110"},
+    { "input": "2135 20485", "expectedOutput": "209731780"},
+    { "input": "50473 357362", "expectedOutput": "63852564959"},
+    { "input": "707348 1201649", "expectedOutput": "721980053077"},
+    { "input": "2139573 59845816", "expectedOutput": "1790760067517242"},
+    { "input": "38324753 95678563", "expectedOutput": "4577193641737507"},
+    { "input": "5720374 674093958", "expectedOutput": "227201292955358139"}
+]

@@ -1,0 +1,18 @@
+//Efficient 9/9
+inputString = input()
+inputList = inputString.split(" ")
+k, n = map(int, inputList) 
+totalSum = (n * (n + 1)) // 2 
+m = n // k
+sumMultiplesOfK = k * (m * (m + 1)) // 2 
+print(totalSum - sumMultiplesOfK)
+
+//Unefficient 4/9
+K, N = map(int, input().split())
+
+total_sum = 0
+for i in range(1, N + 1):
+    if i % K != 0:
+        total_sum += i
+
+print(total_sum) 
