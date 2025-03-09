@@ -34,6 +34,7 @@ textarea{
   height: 63%;
   resize: none;
   font-size: 3vh;
+  padding: 1vh;
 }
 
 p, label{

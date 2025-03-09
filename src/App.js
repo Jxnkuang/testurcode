@@ -34,6 +34,7 @@ function App() {
       }
     }
     setUserResults(results); 
+    alert("Finished Testing!");
   };
 
   return (
