@@ -72,8 +72,9 @@ function App() {
         <div className = "submission">
           <select name = "language" id = "codeLanguage">
               <option value = "python">Python</option>
-              <option value = "javascript">Javascript</option>
               <option value = "java">Java</option>
+              <option value = "javascript">Javascript</option>
+              <option value = "rust">Rust</option>
               <option value = "c">C</option>
               <option value = "cpp">C++</option>
               <option value = "csharp">C#</option>
