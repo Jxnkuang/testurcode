@@ -55,10 +55,14 @@ function App() {
         </div>
         <div className = "example">
           <h1> Example </h1>
-          <p><strong>Input:</strong> {firstTestCase.input}</p>
-          <p><strong>Output:</strong> {firstTestCase.expectedOutput}</p>
-          <p><strong>Input:</strong> {secondTestCase.input}</p>
-          <p><strong>Output:</strong> {secondTestCase.expectedOutput}</p>
+            <div className = "firstExample">
+              <p><strong>Input:</strong> {firstTestCase.input}</p>
+              <p><strong>Output:</strong> {firstTestCase.expectedOutput}</p>
+            </div>
+            <div className = "secondExample">
+              <p><strong>Input:</strong> {secondTestCase.input}</p>
+              <p><strong>Output:</strong> {secondTestCase.expectedOutput}</p>
+            </div>
         </div>
       </section>
       <section className = "rightSide">

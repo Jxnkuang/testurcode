@@ -1,0 +1,4 @@
+#1
+You are given two integers K and N. Compute the sum of all integers from 1 to N (inclusive) that are not divisible by K.          
+Input: A single line containing two integers K and N (1 ≤ K ≤ 10⁹, 1 ≤ N ≤ 10⁹) split by a space.
+Output: For each test case, print the integer fitting the requirements. 
