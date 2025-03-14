@@ -1,31 +1,19 @@
-# Create React App
+# Create Test Cases (For non-coders)
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+Add your problem(s), sample solution(s), and test cases into their respective .txt files (e.g. problems.txt or sampleSolutions.txt)
 
-## Deploy Your Own
+## Code Structure (For coders)
 
-Deploy your own Create React App project with Vercel.
+App.js: Handles website redirects
+Home.js: Defines home page layout and information 
+Login.js: Handles user login and account creation
+Problem.js: Displays problems and lets users run the code to compare with our test cases 
+Note: Before running the app locally, you need to comment out Login.js and Problem.js in the code. These files will only be available on the day of the hackathon
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/create-react-app&template=create-react-app)
+### Run The Website
 
-_Live Example: https://create-react-template.vercel.app/_
+Type `npm start` into the terminal to view website with local changes or go to testurcode.vercel.app to see deployed website 
 
-## Available Scripts
+#### Pull Requests
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+Once you've added your changes, create a pull request. I'll (Jiaxin) will review and merge after confirming problem and test cases work!
