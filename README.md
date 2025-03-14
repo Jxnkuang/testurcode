@@ -1,19 +1,41 @@
-# Create Test Cases (For non-coders)
+# Create Test Cases (For Non-Coders)
 
-Add your problem(s), sample solution(s), and test cases into their respective `.txt` files (e.g. `problems.txt` or `sampleSolutions.txt`)
+To contribute problems and test cases:
+- Add your problem(s) into the `problems.txt` file.
+- Add your sample solution(s) into the `sampleSolutions.txt` file.
+- Add your test cases into the `testCases.txt` file.
 
-# Code Structure (For coders)
+---
 
-**App.js**: Handles website redirects
-**Home.js**: Defines home page layout and information 
-**Login.js**: Handles user login and account creation
-**Problem.js**: Displays problems and lets users run the code to compare with our test cases 
-**Note**: Before running the app locally, you need to comment out `Login.js` and `Problem.js` in the code. These files will only be available on the day of the hackathon
+# Code Structure (For Coders)
 
-# Run The Website
+The app is structured as follows:
 
-Type `npm start` into the terminal to view website with local changes or go to testurcode.vercel.app to see deployed website 
+- **App.js**: Manages website redirects and the overall app structure.
+- **Home.js**: Defines the homepage layout and the content displayed.
+- **Login.js**: Handles user login and account creation.  
+- **Problem.js**: Displays problems and allows users to run their code to compare with the test cases.  
+  **Note**: Before running the app locally, comment out `Login.js` and `Problem.js` as these files will only be available on the day of the hackathon.
 
-# Pull Requests
+---
 
-Once you've added your changes, create a **pull request**. I'll (Jiaxin) will review and merge after confirming problem and test cases work!
+# Run The Website Locally
+
+To run the website locally and see your changes:
+1. Open your terminal and navigate to the project folder.
+2. Install the dependencies:
+   ```bash
+   npm install
+3. Run the website locally:
+   ```bash
+   npm start
+
+---
+
+# Pull Request 
+
+Once you've added your changes:
+
+1. Create a pull request with a description of your updates (e.g., "Added new problem and test cases").
+2. I (Jiaxin) will review and merge the pull request after confirming that the problems and test cases work correctly.
+3. Check testurcode.vercel.app for the latest deployed website! 
