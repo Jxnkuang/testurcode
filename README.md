@@ -32,7 +32,7 @@ To run the website locally and see your changes:
 
 ---
 
-# Pull Request 
+# Pull Request (For Both Non-Coders and Coders)
 
 Once you've added your changes:
 
