@@ -19,7 +19,7 @@ The app is structured as follows:
 
 ---
 
-# Run The Website Locally
+# Run The Website Locally (For Coders)
 
 To run the website locally and see your changes:
 1. Open your terminal and navigate to the project folder.
